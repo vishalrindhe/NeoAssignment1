@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+
+.search {
+  width: 100%;
+  position: relative;
+  
+  display: flex;
+  display: inline;
+}
+
+.searchTerm {
+  /* width: 100%; */
+  border: 1px solid #cccccc;
+  border-right: none;
+  /* padding: 5px; */
+  /* height: 36px; */
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #ccccCC;
+}
+
+.searchButton {
+  /* width: 40px;*/
+  height: 28px;
+  border: 1px solid #cccccc;
+  background: white;
+  /* text-align: center; */
+  border-left: none;
+  color: #cccccc;
+  border-radius: 0px 5px 5px 0;
+  cursor: pointer;
+  /* font-size: 20px; */
+}
+
+/*Resize the wrap to see the search bar change!*/
+
+#grad1 {
+  /* height: 200px; */
+  background-color: #A6A9A2; /* For browsers that do not support gradients */
+  /* background-image: linear-gradient( to right, gray , black); */
+}
+
+.jumbotron {
+  padding: 0.5% 0 0.5% 0;
+}
+
+.downloadNow{
+  padding: 1% 4% 1% 4%;
+  background-color: #70716B; 
+  border: 2px solid white;
+  /* margin-left: 3%; */
+}
+
+.container-class {
+  background-image: url("../images/father-and-son.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 100%;
+
+  /* border: 2px dashed #333; */
+}
+
+.bgimg{
+  width: 100%;
+  height: 90%;
+  max-height: 450px;
+  background-image: url("../images/father-and-son.jpg");
+  background-size: 100% 100%;
+  margin-top: -32px;
+  margin-bottom: 0;
+
+  /* border: 1px solid red; */
+}
+
+.playbutton{
+  /* padding: 20% 20% 20% 20%; */
+  /* background-color: green; */
+  background: rgba(151, 199, 20, 0.7 ); 
+  /* border: 2px solid white; */
+  /* margin-left: 3%; */
+  height: 80px;  
+  width: 130px;
+  border: none;
+  margin: 250% 0 0 0;
+}
+
+.container1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.contactus{
+  background: rgba(151, 199, 20);
+  color: white;
+  padding: 3% 6% 3% 6% ;
+}
+
+.contactus1{
+  background: rgba(151, 199, 20);
+  color: white;
+  padding: 2% 8% 2% 8% ;
+}
+
+.ul2 {
+  list-style-image: url("../images/arrow1.png");
+}
+
+.readMore{
+  background: white ;
+  color: rgba(151, 199, 20);
+  border: 2px solid rgba(151, 199, 20);
+  padding: 2% 9% 2% 9%;
+}
+
+.readMore:hover {
+  background-color: rgba(151, 199, 20);
+  color: white;
+}
+
+h5{
+  font-family:Crimson Text ;
+}
+
+#blogpost{
+  /* font-family:Crimson Text ; */
+  font-size: medium;
+  color: gray;
+}
+
+.downloadNow2{
+  padding: 2vh 3vw 2vh 3vw;
+  background-color: #70716B; 
+  border: 2px solid white;
+  margin-left: 1vw;
+}
+
+.contactus2{
+  background:#BAD940;
+  color: white;
+  padding: 2% 8% 2% 8% ;
+}
+
+.ulfooter1{
+  list-style-image: url("../images/icon8.png");
+  color: #999999;
+}
+.ulfooter2{
+  list-style-image: url("../images/icon9.png");
+  color: #999999;
+}
+
+
+.bgimg2{
+  width: 100%;
+  height: 90%;
+  max-height: 550px;
+  background-image: url("../images/hbg5.png");
+  background-size: 100% 100%;
+  margin-top: -32px;
+  margin-bottom: 0;
+
+  /* border: 1px solid red; */
+}
+
+.howvital{
+  font-family: 'Times New Roman', Times serif;
+  color: white;
+  
+}
+
+.cardsbg{
+  width: 100%;
+  /* height: 90%;
+  max-height: 450px; */
+  background-image: url("../images/hbg6.png");
+}
