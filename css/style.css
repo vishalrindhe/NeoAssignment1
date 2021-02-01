@@ -51,8 +51,9 @@
   /* background-image: linear-gradient( to right, gray , black); */
 }
 
-.jumbotron {
-  padding: 0.5% 0 0.5% 0;
+.jumbotron1{
+  padding: 1vh 0 1vh 0;
+  background-color: #A6A9A2;
 }
 
 .downloadNow{
@@ -60,6 +61,11 @@
   background-color: #70716B; 
   border: 2px solid white;
   /* margin-left: 3%; */
+}
+.downloadNowText{
+  color: white; 
+  font-size: 3.5vh;
+  text-align: center;
 }
 
 .container-class {
@@ -75,14 +81,21 @@
 
 .bgimg{
   width: 100%;
-  height: 90%;
-  max-height: 450px;
+  height: 100%;
+  min-height: 70vh;
   background-image: url("../images/father-and-son.jpg");
-  background-size: 100% 100%;
-  margin-top: -32px;
-  margin-bottom: 0;
+  background-size: 100%;
+  /* margin-top: -32px; */
+  background-repeat: no-repeat;
+
+  margin-top: -5vh;
+  
 
   /* border: 1px solid red; */
+}
+
+.playicon{
+  color:white;
 }
 
 .playbutton{
@@ -91,10 +104,30 @@
   background: rgba(151, 199, 20, 0.7 ); 
   /* border: 2px solid white; */
   /* margin-left: 3%; */
-  height: 80px;  
-  width: 130px;
+  height: 14vh;  
+  width: 22vh;
   border: none;
   margin: 250% 0 0 0;
+}
+
+.dadcontent{
+  margin-top: 10%;
+}
+
+.dadp{
+  text-align: center; 
+  font-size:xx-large;
+  font-family:'Fraunces'
+}
+
+.aboutUsImg{
+  /* border: 7px solid #cccccc; 
+  margin-top: 20%; */
+  margin-top: 30%;
+  border: 7px solid #cccccc;
+  height: 50vh;
+  width: 50vh;
+  background-image: url(../images/girlwithflower.png);
 }
 
 .container1 {
@@ -102,6 +135,24 @@
   justify-content: center;
   align-items: center;
   /* height: 100vh; */
+}
+
+.abouotUsSpan{
+  font-size: xx-large;
+}
+
+.blogHeading{
+  text-align: center;
+  margin-bottom:5%;
+  font-size: 8vh;
+  font-style: inherit;
+  font-family:Crimson Text ;
+}
+
+.blogImg{
+  margin-bottom: 10%; 
+  height: 30vh; 
+  width: 20vw;
 }
 
 .contactus{
@@ -125,6 +176,7 @@
   color: rgba(151, 199, 20);
   border: 2px solid rgba(151, 199, 20);
   padding: 2% 9% 2% 9%;
+  /* margin-bottom: vh; */
 }
 
 .readMore:hover {
@@ -140,6 +192,8 @@ h5{
   /* font-family:Crimson Text ; */
   font-size: medium;
   color: gray;
+  text-align: start;
+
 }
 
 .downloadNow2{
@@ -164,15 +218,40 @@ h5{
   color: #999999;
 }
 
+.carouselBg{
+  background-image: url(./images/testimonial-bg.jpg);
+}
+
+.carouselHead{
+  font-size: 8vh;
+}
+
+.carouselImg{
+  width:25vh;
+  border: 2vh solid #83A020;
+  box-shadow: 0vh 0vh 2vh 2vh #B1CF3C;
+   margin-top: 5vh;
+   margin-bottom: 5vh;
+}
+
+.carouselAuthor{
+  margin-bottom: 15vh;
+  font-size: 4vh;
+}
+
+.carouselContent{
+  font-size: 3vh;
+}
 
 .bgimg2{
   width: 100%;
-  height: 90%;
-  max-height: 550px;
+  height: 100%;
+  /* max-height: 550px; */
   background-image: url("../images/hbg5.png");
   background-size: 100% 100%;
   margin-top: -32px;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
+  padding: 10vh 5vh;
 
   /* border: 1px solid red; */
 }
@@ -183,9 +262,422 @@ h5{
   
 }
 
-.cardsbg{
+/* .cardsbg{
+  width: 100%;
+  /* height: 90%;
+  max-height: 450px; */
+  /* background-image: url("../images/hbg6.png");
+  padding: 5vh;
+} */ */
+
+.footer{
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+
+.footerrow{
+  margin-top:10vh ;
+  margin-bottom: 10vh;
+}
+
+.callustoday{
+  font-family: 'Satisfy','cursive'; 
+  color: white;
+  font-size: 5vh;
+}
+
+.rowCallUsToday{
+  margin-top:6vh;
+}
+
+.cardsHeader{
+  text-align: center; 
+  padding: 5vh;
+  font-size: 3vh;
+}
+
+.cardsBack{
   width: 100%;
   /* height: 90%;
   max-height: 450px; */
   background-image: url("../images/hbg6.png");
+}
+
+.cardsBg{
+  background-color: white; 
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7 ); 
+  max-width: 70vh; 
+  padding: 6vh;
+  margin-bottom: 3vh;
+}
+
+.space{
+  display: initial;
+}
+
+.footerBtnCol{
+  text-align: center;
+  color: white;
+  font-size: 3.7vh
+}
+
+.footerRow2{
+  margin-bottom: 0vh; 
+  font-family: Quicksand;
+}
+
+.footerRow2Label{
+  color: white;
+}
+
+.vitalBtn{
+  /* border: 2vh solid rgba(130, 160, 32, 2);
+  padding: 2vh 3.5vh;
+  box-shadow:0  0 0 0 10px hsl(0, 0%, 80%),
+  0 0 0 15px hsl(0, 0%, 90%);
+  border-radius: 50%;
+  font-size: 3vh;
+  background-color: white;
+  color: rgba(60, 34, 34, 0.5);
+  font-weight: bold; */
+  margin: -3vh;
+}
+
+.vitalSpan{
+  color: white; 
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.vitalHeading{
+  display: inline-block;
+margin-bottom: .5rem;
+font-size: 7vh;
+color: white;
+font-weight: bold;
+}
+
+.vitalSubHeading{
+  display: inline-block;
+margin-bottom: .5rem;
+font-size: 4vh;
+color: white;
+
+}
+
+.vitalSteps{
+  text-align: center;
+   padding: 4vh;
+}
+
+.stepStep1{
+  color: white; 
+  text-align: center;
+  display: none;
+}
+
+.stepStep{
+  color: white; 
+  text-align: center;
+   /* display: none; */
+}
+
+/* .addMore{
+  border: none;
+  width: 32px;
+  height: 32px;
+  background-color: #eee;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+.addMore:hover{
+  border: 3px solid #83A020;
+  background-color: #ddd;
+} */
+
+@media only screen and (max-width: 450px){
+  .bgimg{
+    width: 100%;
+    height: 100%;
+    min-height: 70vh;
+    background-image: url("../images/father-and-son.jpg");
+    background-size: 100%;
+    /* margin-top: -32px; */
+    background-repeat: no-repeat;
+    margin-top: -5vh;
+    /* border: 1px solid red; */
+  }
+
+  .playicon{
+    /* size:30px !important; */
+    color:white;
+  }
+
+  .downloadNow2{
+    /* padding: 1% 2% 1% 2%; */
+    background-color: #70716B; 
+    border: 2px solid white;
+    /* margin-left: 3%; */
+    font-size: small  ;
+    text-align: inline;
+  }
+
+  /* .downloadNow2{
+    padding: 2vh 3vw 2vh 3vw;
+    background-color: #70716B; 
+    border: 2px solid white;
+    margin-left: 1vw;
+  }
+   */
+
+  .downloadNowText{
+    color: white; 
+    font-size: 2vh;
+    text-align: center;
+  }
+
+  .playbutton{
+    background: rgba(151, 199, 20, 0.7 ); 
+    height: 6vh;  
+    width: 10vh;
+    border: none;
+    margin: 10vh 0 0 0;
+  }
+
+  .dadcontent{
+    margin-top: 2vh;
+  }
+
+  .dadp{
+    text-align: center; 
+    font-size: small;
+    font-family:'Fraunces'
+  }
+
+  .contactus{
+    background: rgba(151, 199, 20);
+    color: white;
+    font-size: small;
+    padding: 3% 6% 3% 6% ;
+    max-width: 40vh;
+  }
+  .carouselBg{
+    background-image: url(./images/testimonial-bg.jpg);
+  }
+  
+  .carouselHead{
+    font-size: 2vh;
+  }
+  
+  .carouselImg{
+    width:5vh;
+    border: 3px solid #83A020;
+    box-shadow: 0vh 0vh 3px 3px #B1CF3C; 
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    /* display: none; */
+  }
+  
+  .carouselAuthor{
+    margin-bottom: 1vh;
+    font-size: 1.5vh;
+  }
+  .carouselContent{
+    font-size: 1vh;
+    display: none;
+  }
+
+  .aboutUsAlign{
+    text-align: start;
+    margin-top: -40vh;
+  }
+
+  .headAboutUs{
+    text-align: center;
+  }
+
+  .abouotUsSpan{
+    font-size: xx-large;
+  }
+
+  .contactus1{
+    background: rgba(151, 199, 20);
+    color: white;
+    padding: 2% 8% 2% 8% ;
+    text-align: center;
+  }
+
+  #aboutUsBtn{
+    text-align: center;
+  }
+ 
+  .aboutUsImg{
+    /* border: 7px solid #cccccc; 
+    margin-top: 20%; */
+    margin-top: 0%;
+    border: 7px solid #cccccc;
+    height: 45vh;
+    width: 47vh;
+    background-image: url(../images/girlwithflower.png);
+  }
+
+  .blogHeading{
+    text-align: center;
+    margin-bottom:5%;
+    font-size: 4vh;
+    font-style: inherit;
+    font-family:Crimson Text ;
+  }
+
+  .blogAlign {
+    text-align: center;
+  }
+  
+  .blogImg{
+    margin-bottom: 10%; 
+    height: 30vh; 
+    width: 50vw;
+  }
+
+  .readMore{
+    background: white ;
+    color: rgba(151, 199, 20);
+    border: 2px solid rgba(151, 199, 20);
+    padding: 2% 9% 2% 9%;
+    margin-bottom: 10vh;
+  }
+  
+  .readMore:hover {
+    background-color: rgba(151, 199, 20);
+    color: white;
+  }
+
+  #blogpost{
+    /* font-family:Crimson Text ; */
+    font-size: medium;
+    color: gray;
+    text-align: justify; 
+  }
+
+  .footerrow{
+    margin-top:10vh ;
+    margin-bottom: 10vh;
+  }
+
+  .callustoday{
+    font-family: 'Satisfy','cursive'; 
+    color: white;
+    font-size: 4vh;
+  }
+
+  .contactus2{
+    background:#BAD940;
+    color: white;
+    padding: 2% 8% 2% 8% ;
+    margin-bottom: 2vh;
+  }
+
+  .space{
+    display: none;
+  }
+
+  .rowCallUsToday{
+    margin-top:6vh;
+  }
+ 
+  .cardsHeader{
+    text-align: center; 
+    padding: 5vh;
+    font-size: 3vh;
+  }
+  
+  .cardsBg{
+    background-color: white; 
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7 ); 
+    max-width: 70vh; 
+    padding: 6vh;
+    margin-bottom: 3vh;
+    background-repeat: no-repeat;
+  }
+  .cardsBack{
+    width: 100%;
+    /* height: 90%;
+    max-height: 450px; */
+    /* background-image: url("../images/hbg6.png"); */
+    background-image: none;
+    
+  }
+  .footerBtnCol{
+    text-align: center;
+    color: white;
+    font-size: 3.7vh
+  }
+
+  .footerRow2{
+    margin-bottom: 0vh; 
+    font-family: Quicksand;
+  }
+
+  .footerRow2Label{
+    color: white;
+  }
+
+  .vitalBtn{
+    /* border: 2vh solid rgba(130, 160, 32, 2);
+    padding: 2vh 3.5vh;
+    box-shadow:0  0 0 0 10px hsl(0, 0%, 80%),
+    0 0 0 15px hsl(0, 0%, 90%);
+    border-radius: 50%;
+    font-size: 3vh;
+    background-color: white;
+    color: rgba(60, 34, 34, 0.5);
+    font-weight: bold; */
+    margin: -3vh;
+    /* height: 1vh;width: 1vh; */
+  }
+
+  .vitalSmall{
+    height: 5vh;
+    width: 5vh;
+  }
+  
+  .vitalSpan{
+    color: white; 
+    font-size: 1vh;
+    
+  }
+  
+  .vitalHeading{
+    display: inline-block;
+  margin-bottom: .5rem;
+  font-size: 4vh;
+  color: white;
+  font-weight: bold;
+  }
+  
+  .vitalSubHeading{
+    display: inline-block;
+  margin-bottom: .5rem;
+  font-size: 2.5vh;
+  color: white;
+  
+  }
+  
+  .vitalSteps{
+    text-align: center;
+     padding: 4vh;
+  }
+
+  .stepStep{
+    color: white; 
+    text-align: center;
+    display: none;
+  }
+  .stepStep1{
+    color: white; 
+    text-align: center;
+    /* display: none; */
+  }
 }
