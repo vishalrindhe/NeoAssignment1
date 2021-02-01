@@ -47,7 +47,7 @@
                             </div>
                         </form>
                     </div>
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto" style="text-align: center;">
                         <li class="nav-item active">
                             <a class="nav-link active ml-4" href="#">Home</a>
                         </li>
@@ -73,6 +73,53 @@
     </div>
  </head>
 <body>
+
+    <!-- <nav class="navbar navbar-expand-xl navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarSupportedContent">
+                    <i class="navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                    <div class="navContent flex-column mx-3 flex-sm-column">
+                        <div class="row justify-content-center">
+                            <span class="navbar-text mr-2">
+                                <div class="contactNumber">
+                                    <p>Call Us Today! (02) 9017 8413</p>
+                                </div>
+                            </span>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input type="text" placeholder="search..." name="search2">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="row justify-content-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ml-4" href="#">Dating Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ml-4" href="#">Who We Help</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ml-4" href="#">Why Vital</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ml-4" href="#">Reviews</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ml-4" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </nav> -->
     <!-- <div class="container">
         <div class="row ">
             <div class="col-4 col-sm-2 offset-1">
@@ -191,6 +238,7 @@
             </div>
         </div>
     </div>
+    
 <div>
     <div class=" bgimg">
         <div class="container">
@@ -203,7 +251,11 @@
                             <path d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
                             </svg> -->
                             
-                            <i class="fa fa-play playicon" ></i>
+                            <i class="fa fa-play playicon playicon1 d-none d-lg-block" style="font-size:6vh;" ></i>
+                            <i class="fa fa-play playicon playicon1 d-lg-none" style="font-size:3vh;" ></i>
+
+
+
                         </button>
                         </div>
                     </div>
@@ -216,7 +268,8 @@
                 </p>
                 <p style="text-align: center;">
                    <button type="button" class="btn contactus">Contact Us Now!
-                       <img src="./images/icon1.png">
+                       <!-- <img src="./images/icon1.png"> -->
+                       <i class="fa fa-phone-square fa_custom fa-lg" aria-hidden="true" ></i>
                    </button>
                 </p>
             </div>
@@ -259,7 +312,7 @@
             </div>
             <div class="col ">
                 <div class="aboutUsImg" >
-
+                    
                 </div>
                 <!-- <img class="aboutUsImg" src="./images/girlwithflower.png" > -->
             </div>
@@ -304,7 +357,9 @@
                         <div class="col-md justify-content-center vitalSteps">
                       
                                 <pre class="stepStep">STEP           STEP           STEP           HOP             HOP            HOP</pre> 
-                                <!-- <pre class="stepStep1">STEP     STEP           STEP            HOP             HOP            HOP</pre>  -->
+                                <!-- <div class="d-sm-none">
+                                <pre style="font-size: 7px;">STEP      STEP     STEP        HOP     HOP     HOP</pre> 
+                                </div> -->
                             <button type="button" class="btn vitalBtn">
                                 <a title="Pop Up into our office and meet us face to face">
                                     <img class="vitalSmall" src="./images/tooltip-bg (1).png">
@@ -364,7 +419,9 @@
                             </div>
                           </div> -->
                           <div class="cardsBg"  >
-                            <img src="./images/icon2.png"><br>
+                            <!-- <img src="./images/icon2.png"><br> -->
+                            <i class="fa fa-user-circle" style="font-size:14vh;color:greenyellow"></i>
+
                             <h2>What is Lorem ipsum?</h2>
                             <p>Lorem Ipsum is dummy text at the end and the typesetting industry.
                                 Lorem Ispum has been the industry standard dummy text since 1500s 
@@ -381,7 +438,9 @@
                           <!-- &nbsp;&nbsp; -->
                     <div class="col-md">
                         <div class="cardsBg" >
-                            <img src="./images/icon3.png"><br>
+                            <!-- <img src="./images/icon3.png"><br> -->
+                            <i class="fa fa-user-circle-o" style="font-size:14vh;color:greenyellow"></i>
+
                             <h2>What is Lorem ipsum?</h2>
                             <p>Lorem Ipsum is dummy text at the end and the typesetting industry.
                                 Lorem Ispum has been the industry standard dummy text since 1500s 
@@ -411,9 +470,9 @@
               <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
               <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
+            <div class="carousel-inner" style="height: 100%; width: 100%;">
               <div class="carousel-item active">
-                    <img src="./images/testimonial-bg.jpg" class="d-block w-100" alt="...">
+                    <img src="./images/testimonial-bg.jpg" style="height: 550px;" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-sm-block  d-md-block">
                         <h2 class="carouselHead"><b>What Our Clients Say</b></h2>
                         <img src="./images/girlwithflower.png" class="w3-circle carouselImg">
@@ -516,7 +575,7 @@
     <!-- Footer -->
 
     
-<footer>
+<footer class="footerclose">
     
     <div class="justify-content-center align-items-center" style="background-color:#333333; margin-top: 5vh;">
         
@@ -535,7 +594,7 @@
         <div class="container">
                 <div class="row justify-content-center" >
                     <div class="row footerrow" >
-                        <div class="col-md col offset-1">
+                        <div class="col-md col-lg offset-1 footerm1">
                             <img src="./images/foot_logo.png" alt="footlogo">
                             <div class="row rowCallUsToday" >
                                 <div class="col-md col-12" >
@@ -621,21 +680,155 @@
         </div>
         
     </div>
-    <div class="justify-content-center align-items-center" style="background-color:#000000;">
+    <div class="justify-content-center align-items-center bottomfooter1">
         <div class="container">
-            <div class="row" style="color:white; background-color: black; text-align: center;" >
+            <div class="row bottomfooter2" >
                 <!-- <div style="margin-bottom: 3vh; margin-top: 3vh;"> -->
-                    <div class="col-md offset-1 col-sm-12" style="margin-bottom: 3vh; margin-top: 3vh;">
+                    <div class="col-md offset-1 col-sm-12 bottomfooter3">
                         <label>@Vitalpartner.com.au</label>
                     </div>
-                    <div class="col-md-5 col-sm-12" style="margin-bottom: 3vh; margin-top: 3vh;">
+                    <div class="col-md-5 col-sm-12 bottomfooter3">
                         <label>Contact&nbsp;</label>|
                             <label>Terms of Use&nbsp;</label>|
                             <label>Privacy policy &nbsp;</label>|
                             <label>Disclaimer</label>
                     
                     </div>
-                    <div class="col-md col-sm-12 justify-content-center align-content-center" style="margin-bottom: 3vh; margin-top: 3vh;">
+                    <div class="col-md col-sm-12 justify-content-center align-content-center bottomfooter3" style="margin-bottom: 3vh; margin-top: 3vh;">
+                        <label>FOLLOW US:</label> 
+                        <img src="./images/icon10.png" alt="">
+                        <img src="./images/icon11.png" alt="">
+                        <img src="./images/icon12.png" alt="">
+                        <img src="./images/icon13.png" alt="">
+                        <img src="./images/icon14.png" alt="">
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+<footer class="footeropen">
+    
+    <div class="justify-content-center align-items-center" style="background-color:#333333; margin-top: 5vh;">
+        
+
+        <div class="justify-content-center align-items-center" >
+            <div class="jumbotron jumbotron1">
+                <div class="d-flex container align-items-center justify-content-center">
+                    
+                            <img src="images/icon5.png" >
+                            <span class="downloadNowText"> Simply Dummy text of the.</span> 
+                            <button type="button" class="btn downloadNow2 btn-outline-light">Download Now</button>
+                            
+                </div>
+            </div>
+        </div>
+        <div class="container">
+                <div class="row" >
+                    <div class="row footerrow" >
+                        <div class="col offset-1 footerm1">
+                            <img src="./images/foot_logo.png" class="footerlogo" alt="footlogo">
+                            <div class="row rowCallUsToday" >
+                                <div class="col-md col-12" >
+                                    <label class="callustoday">
+                                        Call Us Today! (02) 9017 8413
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col footerBtnCol">
+                                <label for="footer1">Shortcut your search to happiness right now.</label>
+                                <label for="footer2">Lives a life without regrets and take action today!</label>
+                                <div class="row" style="margin-top:2vh ;">
+                                    <div class="col-md col">
+                                        <button type="button" class="btn contactus2">Book an appointment
+                                            <img src="./images/icon7.png">
+                                        </button>
+                                        <div class="space">&nbsp;&nbsp;</div>
+                                        <button type="button" class="btn contactus2">Contact a consultant
+                                            <img src="./images/icon6.png">
+                                        </button>
+                                    </div>
+                                </div>
+                        </div>   
+                </div>
+            </div>
+
+
+            <div class="row footerRow2" >
+                <div class="col offset-1">
+                    <label class="footerRow2Label" ><b>CONTACT INFO</b></label>
+                    <p style="color: #999999;">
+                       <b> 4/220 George st, Sydeney NSW 2000</b><br>
+                        Phone: (02) 9017 8413<br>
+                        Email: can@syd.vitalpartners.com.au
+                    </p>
+                    <div class="row">
+                        <div class="col-12">
+                            <p style="color: #999999;">
+                            <b>Canberra City ACT 2600  </b><br>
+                                Phone: (02) 9017 8413<br>
+                                Email: can@syd.vitalpartners.com.au
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <label class="footerRow2Label"><b>RECENT POSTS</b></label>
+                    <ul class="ulfooter1">
+                        <li>How to Recover After a Bad Date</li>
+                        <li>Review | Vital Partners Review</li>
+                        <li>Review | Vital Partners Review</li>
+                        <li>Review | Vital Partners Derk and Julie</li>
+                        <li>7 Rules For Happy Relationship | Vital Partners Dating Sydney</li>
+                    </ul>
+
+                </div>
+                <div class="col">
+                    <label class="footerRow2Label"><b>RECENT TWEETS</b></label>
+                    <ul class="ulfooter2">
+                        <li>Are you being vulnerable to find love? via offline
+                             dating agency Sydney Canberra Vital Partners<br>
+                             <small><label>https://t.co/Hhtyjhvcfjvhjv</label>
+                                &nbsp;&nbsp; <label>1 week ago</label></small>
+                            </li>
+                            </ul>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <ul class="ulfooter2">
+                                <li>Ending relationship? via offline
+                                     dating agency Sydney Canberra Vital Partners<br>
+                                    <small><label>https://t.co/Hhtyjhvcfjvhjv</label>
+                                       &nbsp;&nbsp; <label>1 week ago</label></small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="justify-content-center align-items-center bottomfooter1">
+        <div class="container">
+            <div class="row bottomfooter2" >
+                <!-- <div style="margin-bottom: 3vh; margin-top: 3vh;"> -->
+                    <div class="col-md offset-1 col-sm-12 bottomfooter3">
+                        <label>@Vitalpartner.com.au</label>
+                    </div>
+                    <div class="col-md-5 col-sm-12 bottomfooter3">
+                        <label>Contact&nbsp;</label>|
+                            <label>Terms of Use&nbsp;</label>|
+                            <label>Privacy policy &nbsp;</label>|
+                            <label>Disclaimer</label>
+                    
+                    </div>
+                    <div class="col-md col-sm-12 justify-content-center align-content-center bottomfooter3" style="margin-bottom: 3vh; margin-top: 3vh;">
                         <label>FOLLOW US:</label> 
                         <img src="./images/icon10.png" alt="">
                         <img src="./images/icon11.png" alt="">
